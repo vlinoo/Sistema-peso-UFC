@@ -1,0 +1,75 @@
+@media screen and (max-width:1280px){
+    #todo-container{
+           position: absolute;
+           right: 28%;
+    }
+}
+
+@media screen and (max-width:834px){
+    body{
+        background-image: url(../img/hush-naidoo-jade-photography-23h4tMUzGZk-unsplash.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #todo-container{
+        position: absolute;
+        right: 28%;
+        top: 20%;
+        height: 450px;
+
+    }
+    h1{
+        font-size: 15px;
+    }
+    
+        
+}
+
+@media screen and (max-width:800px){
+    #todo-container{
+        height: 450px;
+    }
+    .titulo{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width:414px){
+    body{
+        background-image: none;
+        background-color: black;
+    }
+    #todo-container{
+        position: absolute;
+        top: 2.3rem;
+        left: 4.4rem;
+        height: 430px;
+        padding: 5rem;
+        
+
+        
+    }
+    .titulo{
+           font-size: 11px;
+           text-align: center; 
+           display: flex;
+           justify-content: center;
+    }
+    h5{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 9px;
+    }
+    .btn1{
+         margin-bottom: 40px;
+    }
+    h1{
+        
+        font-size: 9px;
+        
+    }
+
+}
